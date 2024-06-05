@@ -1,6 +1,12 @@
 
+
 plugins {
     id("java")
+    id("application")
+}
+
+application {
+    mainClass.set("com.example.TictactoeGame")
 }
 
 group = "org.example"
